@@ -1,0 +1,18 @@
+public class operationsOnStringBuilder {
+	public static void main(String[] args) {
+		StringBuilder str4 = new StringBuilder("");
+	    str4.append("StringBuffer");
+	    str4.append("is a peer class of String");
+	    str4.append(" that provides much of");
+	    str4.append(" the functionality of strings");
+	    System.out.println(str4);  
+	    
+	    
+	    StringBuilder str5 = new StringBuilder("It is used to _ at the specified index position");
+	    System.out.println(str5.insert(14,"insert text"));
+	    
+	    StringBuilder str7= new StringBuilder("This method returns the reversed object on which it was called");
+	    System.out.println(str7.reverse());
+	}
+
+}

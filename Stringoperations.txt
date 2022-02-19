@@ -1,0 +1,14 @@
+public class stringOperations {
+	public static void main(String[] args) {
+		String str3 =  "Java String pool refers to collection of Strings which are stored in heap";
+		String Lc = str3.toLowerCase();
+		String Uc = str3.toUpperCase();
+		String Rs = str3.replace('a', '$');
+		
+		System.out.println(Lc);
+		System.out.println(Uc);
+		System.out.println(Rs);
+		System.out.println(str3.contains("java string pool refers to collection of strings which are stored in heap memory"));
+	}
+
+}

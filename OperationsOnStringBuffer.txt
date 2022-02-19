@@ -1,0 +1,17 @@
+public class operationsonStringBuffer {
+	public static void main(String[] args) {
+			StringBuffer str4 = new StringBuffer("");
+		    str4.append("StringBuffer");
+		    str4.append("is a peer class of String");
+		    str4.append(" that provides much of");
+		    str4.append(" the functionality of strings");
+		    System.out.println(str4);  
+		    
+		    
+		    StringBuffer str5 = new StringBuffer("It is used to _ at the specified index position");
+		    System.out.println(str5.insert(14,"insert text"));
+		    
+		    StringBuffer str7= new StringBuffer("This method returns the reversed object on which it was called");
+		    System.out.println(str7.reverse());
+		}
+} 
